@@ -1,3 +1,5 @@
+package Zad1;
+
 import java.time.LocalDate;
 
 public class myrun extends Thread {
