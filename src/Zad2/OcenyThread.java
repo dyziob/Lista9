@@ -16,7 +16,7 @@ public class OcenyThread extends Thread {
             }
             FileWriter writter = new FileWriter(file, true);
             for (int i = 0; i < 10; i++) {
-                writter.write("Id wątku: " + Thread.currentThread().getId() + "\tID Filmu: \t" + (random.nextInt(10000) + 1)
+                writter.write("\nId wątku: " + Thread.currentThread().getId() + "\tID Filmu: \t" + (random.nextInt(10000) + 1)
                         + "\tID Użytkownika: \t" + (random.nextInt(10000) + 1) + "\tOcena \t" + (random.nextInt(10) + 1) + "\n");
             }
             writter.close();
